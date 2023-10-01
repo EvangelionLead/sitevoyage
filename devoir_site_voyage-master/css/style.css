@@ -1,0 +1,323 @@
+body {
+
+	background-color: black;
+	color:white;
+
+	min-width:450px;
+	
+
+
+}
+
+#slider {
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+#slider img {
+    max-width: width 25vw;
+    height: auto;
+    display:block;
+}
+/***********************/
+.spece p {
+	display: flex;
+	float: right;
+	margin-right: 700px;
+	color: white;
+	background-color: black;
+}
+
+.spec p{
+	width: 400px;
+	display: flex;
+	float: right;
+	margin-top: 150PX;
+	margin-right: -260px;
+	background-color:black;
+	color:white;
+}
+
+
+.container {
+	width: 1280px;
+	margin: 70px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color:grey;
+	background-color: white;
+}
+
+.container .box {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+
+}
+
+.container .box .imgbox{
+	position: relative;
+	overflow: hidden;
+
+}
+
+.container .box .imgbox img{
+
+	max-width: 100%;
+	transition: transform 2s;
+
+}
+.container .box .imgbox1 img{
+
+	max-width: 100%;
+	transition: transform 2s;
+
+}
+
+.container .box:hover .imgbox img{
+
+transform: scale(1.2);
+
+}
+.container .box .details {
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
+	background:black;
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.container .box:hover .details {
+	transform: scaleY(1);
+
+}
+.container .box .details .content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15%;
+	color: grey;
+
+}
+
+.container .box .details .content h2{
+	margin: 0;
+	padding: 0;
+	color: yellow;
+	font-size: 20px;
+
+}
+
+.container .box .details .content p{
+	margin: 10px 0 0;
+	padding: 0;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.container .box .imgbox4{
+	position: relative;
+	overflow: hidden;
+
+}
+
+.container .box .imgbox4 img{
+
+	max-width: 100%;
+	transition: transform 2s;
+
+}
+.container .box .imgbox4 img{
+
+	max-width: 100%;
+	transition: transform 2s;
+
+}
+
+.container .box:hover .imgbox4 img{
+
+transform: scale(1.2);
+
+}
+.container .box .details4 {
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	right: 10px;
+	left: 10px;
+	background: rgba(0,0,0,.3);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.container .box:hover .details4 {
+	transform: scaleY(1);
+
+}
+.container .box .details4 .content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15%;
+	color: white;
+
+}
+
+.container .box .details4 .content h2{
+	margin: 0;
+	padding: 0;
+	color: yellow;
+	font-size: 20px;
+
+}
+
+.container .box .details4 .content p{
+	margin: 10px 0 0;
+	padding: 0;
+
+}
+
+footer{
+	background-color: rgb(236, 179, 179);
+	display: block;
+	margin: 0 auto;
+}
+
+.footer-grids{
+	display: flex;
+	background: #282828;
+	padding: 3em 3em;
+}
+.footer.logo{
+	margin-right: 10px;
+}
+.footer.one {
+	width: 37%;
+	margin-left: 15px;
+}
+.footer.one p{
+	color:#908F8F;
+	line-height:2em;
+	font-size:14px;
+}
+
+.footer.two {
+    width: 23%;
+    margin: 0 8%;
+}
+.footer.two ul{
+	margin:0;
+	padding:0;
+}
+.footer.two ul li{
+	list-style-type:none;
+	display:block;
+    line-height: 1.5em;
+	font-size:14px;
+}
+.footer.two ul li a{
+color:#908F8F;	
+display:block;
+}
+.footer.four {
+    width: 23%;
+}
+.footer.four ul li {
+    list-style-type: none;
+    display: block;
+    color: #908F8F;
+    font-size: 14px;
+    line-height: 2.5em;
+}
+
+.copy-right-grids {
+	padding: 20px 20px;
+	background: #211E1E;
+}
+
+p.footer-gd a {
+	color:#f7f7f7;
+}
+.footer-grids div h3{  
+	font-size: 18px;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 32px;
+	font-family: 'Viga', sans-serif;
+}
+
+p.footer-gd {
+    color: #908F8F;
+    font-weight: 500;
+	font-size:14px;
+}
+
+p.footer-gd a:hover {
+	color: #2e99ff;
+}
+.copy-left{
+	float:left;
+}
+.copy-right{
+	float:right;
+}
+
+.copy-right-grids {
+	padding: 20px 20px;
+    background: #211E1E;
+}
+
+.copy-right ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 0px;
+    border-left: 1px solid #444343;
+    padding: 0 12px;
+}
+.copy-right ul li a {
+    color: #908F8F;
+	font-size:13px;
+}
+.fa-twitter:hover{
+	color: rgb(21, 148, 252);
+}
+.fa-instagram:hover{
+	color: #990d53;
+}
+.fa-pinterest-p:hover{
+	color: #800000;
+}
+.fa-linkedin-in:hover{
+	color: #0682f7;
+}
+
+
+@media screen and (max-width: 800px) {
+	#logo{
+		visibility: hidden
+		
+	}
+  	
+}
